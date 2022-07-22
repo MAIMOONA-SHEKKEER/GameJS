@@ -3,41 +3,42 @@
 }
 
 #game{
-width: 600px;
-height: 300px;
+width: 1200px;
+height: 500px;
 border:2px solid blue;
 margin:auto;
 background-image: url("https://img.freepik.com/free-photo/white-cloud-sky-background_74190-4646.jpg?w=2000");
 background-size: cover;
 }
 
-#mayavi{
-height: 75px;
-width: 75px;
-position: relative;
-top: 225px;
-background-image: url(images/mayavi-removebg-preview.png);
-background-size: cover;
-}
-
 #luttapi{
 height: 100px;
-width: 50px;
+width: 120px;
 position: relative;
-top: 175px;
-left: 550px;
+top: 225px;
 background-image: url(images/luttapi-removebg-preview.png);
 background-size: cover;
-animation: luttapi 1.33s infinite;
 }
 
-@keyframes luttapi {
-    0%{right: 550px;}
-    100%{right: -50px;}
+#mayavi{
+height: 100px;
+width: 110px;
+position: relative;
+top: 175px;
+left: 1150px;
+background-image: url(images/mayavi-removebg-preview.png);
+background-size: cover;
+animation: mayavi 2s infinite;
+}
+
+@keyframes mayavi {
+    0%{left: 1150px;}
+    100%{left: -50px;}
 }
 
 .jump-animation{
-    animation: jump 0.5s; 
+    animation: jump 1s; 
+
 }
 
 @keyframes jump {
