@@ -1,0 +1,48 @@
+#score{
+    text-align:center;
+}
+
+#game{
+width: 600px;
+height: 300px;
+border:2px solid blue;
+margin:auto;
+background-image: url("https://img.freepik.com/free-photo/white-cloud-sky-background_74190-4646.jpg?w=2000");
+background-size: cover;
+}
+
+#mayavi{
+height: 75px;
+width: 75px;
+position: relative;
+top: 225px;
+background-image: url(images/mayavi-removebg-preview.png);
+background-size: cover;
+}
+
+#luttapi{
+height: 100px;
+width: 50px;
+position: relative;
+top: 175px;
+left: 550px;
+background-image: url(images/luttapi-removebg-preview.png);
+background-size: cover;
+animation: luttapi 1.33s infinite;
+}
+
+@keyframes luttapi {
+    0%{right: 550px;}
+    100%{right: -50px;}
+}
+
+.jump-animation{
+    animation: jump 0.5s; 
+}
+
+@keyframes jump {
+    0%{top: 225px;}
+    50%{top: 75px;}
+    75%{top: 75px;}
+    100%{top: 225px;}
+}
